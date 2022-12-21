@@ -1,0 +1,49 @@
+.projects {
+    display: flex;
+    margin-bottom: 29vh;
+}
+
+.projects ul {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    border: 1px solid #000;
+}
+
+.projects li {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+span {
+    font-weight: bold;
+}
+
+.btns {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 1em;
+}
+
+.btns input {
+    width: 100px;
+    margin: 1px;
+    padding: 3px;
+}
+
+.btns i {
+    position: absolute;
+}
+
+@media (max-width:420px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+}

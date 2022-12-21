@@ -1,0 +1,29 @@
+.projectEdit {
+    margin-bottom: 19vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    border: 1px solid #000;
+}
+
+form label {
+    margin-top: 1em;
+    margin-left: 20px;
+}
+
+form span {
+    padding: 5px;
+}
+
+form label input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.savebutton {
+    width: 100px;
+    margin-bottom: 1em;
+}

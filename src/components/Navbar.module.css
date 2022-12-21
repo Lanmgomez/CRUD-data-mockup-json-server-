@@ -1,0 +1,22 @@
+.header {
+    width: 100%;
+    height: 5em;
+    background-color: #ffd700;
+}
+
+.header ul {
+    display: flex;
+    width: 200px;
+}
+
+.header ul a {
+    margin-top: 1em;
+    text-decoration: none;
+    color: #000;
+    font-size: 15pt;
+}
+
+.header ul a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
